@@ -50,8 +50,8 @@ const processTemplate = ({template, commitMessage}) => {
 
 const makeCommit = (input) => {
   console.log("Committing Message... 🚀 ");
-  console.log(`git commit -m ${input}`);
-  execSync(`git commit -m ${input}`);
+  console.log(`git commit -m '${input}'`);
+  execSync(`git commit -m '${input}'`);
   console.log("Commit Successful! 🎉");
 };
 
